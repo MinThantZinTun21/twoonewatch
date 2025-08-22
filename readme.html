@@ -4,56 +4,118 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Watch Along — README (MM)</title>
+    <!-- Google Fonts & Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background: #fafafa;
+        margin: 0;
+        color: #333;
+      }
+      header {
+        background-color: #6200ea;
+        color: white;
+        padding: 16px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 1.8rem;
+      }
+      main {
+        padding: 16px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      section {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 16px;
+        margin-bottom: 20px;
+      }
+      section h2 {
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        margin-top: 0;
+        color: #6200ea;
+      }
+      section h2 .material-icons {
+        margin-right: 8px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      strong {
+        color: #000;
+      }
+      em {
+        color: #555;
+      }
+      .vpn-warning {
+        background: #ffebee;
+        border-left: 5px solid #d32f2f;
+        padding: 10px;
+        margin: 12px 0;
+        font-weight: bold;
+        color: #c62828;
+      }
+      footer {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 12px;
+        color: #777;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1>Watch Along — အသုံးပြုလမ်းညွှန်</h1>
-      <p>ဒီစာမျက်နှာမှာ Watch Along ကို အသုံးပြုတာနဲ့ ပြဿနာဖြေရှင်းပေးနိုင်မယ့် အချက်များကို ရှင်းပြထားပါတယ်။</p>
+      <p>ဒီစာမျက်နှာမှာ Watch Along ကို အသုံးပြုနည်းနဲ့ ပြဿနာဖြေရှင်းနည်းများကို ရှင်းပြထားပါတယ်။</p>
     </header>
 
     <main>
       <section>
-        <h2>💡 အခြေခံအကြောင်းအရာ</h2>
+        <h2><span class="material-icons">lightbulb</span> အခြေခံအကြောင်းအရာ</h2>
         <ul>
-          <li>
-            <strong>Man Utd ပွဲစမယ့်အချိန်</strong>— <em>Watch Along</em> icon
-            ကို နှိပ်လိုက်하면 <strong>Min Min Htun Live</strong> သွားတက်လာပါမယ်။
-          </li>
-          <li>
-            <strong>Multiple Match</strong>— အချိန်တပြိုင်နက်
-            <strong>၄ ပွဲထိ</strong> ကြည့်နိုင်ပါတယ်။
-          </li>
-          <li>
-            <strong>ဖုန်း Screen</strong>— ဗီဒီယိုက fix မဖြစ်သေးရင်
-            <strong>ထောင့်နားက icon</strong> ကို နှိပ်ပြီး view ကို ပြောင်းနိုင်ပါတယ်။
-          </li>
-          <li>
-            <strong>Watch Along Icon</strong>— <em>အနီရောင်</em>နဲ့
-            <em>လူ ၂ ယောက်</em> ပါတဲ့ ခလုတ်ဖြစ်ပါတယ်။
-          </li>
+          <li><strong>Man Utd ပွဲစမယ့်အချိန်</strong> — <em>Watch Along</em> icon ကို နှိပ်လိုက်하면 <strong>Min Min Htun Live</strong> သွားတက်လာပါမယ်။</li>
+          <li><strong>Multiple Match</strong> — အချိန်တပြိုင်နက် <strong>၄ ပွဲထိ</strong> ကြည့်နိုင်ပါတယ်။</li>
+          <li><strong>ဖုန်း Screen</strong> — ဗီဒီယိုက fix မဖြစ်သေးရင် <strong>ထောင့်နားက icon</strong> ကို နှိပ်ပြီး view ကို ပြောင်းနိုင်ပါတယ်။</li>
+          <li><strong>Watch Along Icon</strong> — <em>အနီရောင်</em>နဲ့ <em>လူ ၂ ယောက်</em> ပါတဲ့ ခလုတ်ဖြစ်ပါတယ်။</li>
+          <li><strong>အသစ်ထည့်စွက်</strong> — <em>Chelsea</em> ပွဲလည်း အလားအလာရှိပါက <strong>[date]</strong> တွင် Watch Along ထည့်ပေးပါမယ်။</li>
+        </ul>
+        <div class="vpn-warning">
+          ⚠️ သေချာစွာ <strong>VPN ပိတ်ထားမှ</strong> Watch Along အလုပ်လုပ်ပါမယ်!  
+          VPN သုံးထားလျှင် Live မပေါ်နိုင်ပါ။
+        </div>
+      </section>
+
+      <section>
+        <h2><span class="material-icons">science</span> Development အခြေအနေ</h2>
+        <p>လက်ရှိ <strong>Development လုပ်ဆောင်ဆဲ</strong> ဖြစ်ပြီး <strong>error</strong> တွေ အများကြီးဖြစ်နိုင်ပါတယ်။</p>
+        <p>Man Utd ပွဲလာတဲ့အချိန် <strong>Min Min Htun Live</strong> မပေါ်လာလို့ ဘယ်ဟာနှိပ်ရမလဲ မသိသေးပါက — <strong>ရှိတဲ့ ခလုတ်တွေကို တစ်ခုပီးတစ်ခုလိုက်နှိပ်</strong> ကြည့်ပါ။</p>
+      </section>
+
+      <section>
+        <h2><span class="material-icons">build</span> ပြဿနာဖြေရှင်းခြင်း (Troubleshooting)</h2>
+        <ul>
+          <li><strong>Error တက်တယ်</strong> — <em>VPN</em> ကို <strong>ပိတ်</strong> (disable) လုပ်ကြည့်ပါ။</li>
+          <li><strong>Live မပေါ်တယ်</strong> — Watch Along icon ကို ပြန်နှိပ်ပါ၊ မရသေးရင် အခြား ခလုတ်များကို တစ်ခုပီးတစ်ခု စမ်းနှိပ်ပါ။</li>
+          <li><strong>Network Slow</strong> — Wi-Fi ပြောင်းခြင်း/Internet ပြန်ဖွင့်ခြင်းနဲ့ တစ်ခါတည်း ကြိုးစားပါ။</li>
+          <li><strong>Update App</strong> — App version နောက်ဆုံးမဟုတ်လျှင် Store မှာ update လုပ်ပါ။</li>
         </ul>
       </section>
+    </main>
 
-      <section>
-        <h2>🧪 Development အခြေအနေ</h2>
-        <p>
-          လက်ရှိ <strong>Development လုပ်ဆောင်ဆဲ</strong> ဖြစ်ပြီး
-          <strong>error</strong> တွေ အများကြီးဖြစ်နိုင်ပါတယ်။
-        </p>
-        <p>
-          Man Utd ပွဲလာတဲ့အချိန် <strong>Min Min Htun Live</strong> မပေါ်လာလို့
-          ဘယ်ဟာနှိပ်ရမလဲ မသိသေးပါက —
-          <strong>ရှိတဲ့ ခလုတ်တွေကို တစ်ခုပီးတစ်ခုလိုက်နှိပ်</strong> ကြည့်ပါ။
-        </p>
-      </section>
-
-      <section>
-        <h2>🛠️ ပြဿနာဖြေရှင်းခြင်း (Troubleshooting)</h2>
-        <ul>
-          <li>
-            <strong>Error တက်တယ်</strong>— <em>VPN</em> ကို
-            <strong>ပိတ်</strong> (disable) လုပ်ကြည့်ပါ။
-          </li>
-          <li>
-            <strong>Live မပေါ်တယ်</strong>— Watch Along icon ကို ပြန်နှိပ်ပါ၊
-            မရသေးရင် အခြား ခလုတ်များကို တစ်ခုပီးတစ်ခု စမ်းနှိပ်ပါ။
+    <footer>
+      © 2025 Watch Along Guide — Material UI Inspired Layout
+    </footer>
+  </body>
+</html>
