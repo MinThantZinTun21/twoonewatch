@@ -1,45 +1,44 @@
-<!DOCTYPE html>
-<html lang="my">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Watch Along — အသုံးပြုလမ်းညွှန် & APK Update</title>
-    <script>
-      // Copy link to clipboard
-      function copyLink() {
-        const link = document.getElementById("telegramLink").href;
-        navigator.clipboard.writeText(link).then(() => {
-          alert("Telegram link ကို copy လုပ်ပြီးပါပြီ!");
-        });
-      }
+<h1>Watch Along — အသုံးပြုလမ်းညွှန် & APK Update</h1>
 
-      // Share link via Web Share API
-      function shareLink() {
-        const link = document.getElementById("telegramLink").href;
-        if (navigator.share) {
-          navigator.share({
-            title: "Watch Along APK Update",
-            text: "Watch Along အပ်ဒိတ်များကို ဒီ Telegram channel မှာ ကြည့်ပါ။",
-            url: link
-          }).catch(console.error);
-        } else {
-          alert("Sharing ကို ဒီ browser မှာ မထောက်ပံ့ပါ။ Link ကို copy လုပ်ပြီး manually share လုပ်ပါ။");
-        }
-      }
-    </script>
-  </head>
-  <body>
-    <header>
-      <h1>Watch Along — အသုံးပြုလမ်းညွှန် & APK Update</h1>
-      <p>ဒီစာမျက်နှာမှာ Watch Along ကို အသုံးပြုနည်း၊ ပြဿနာဖြေရှင်းနည်းနဲ့ နောက်ဆုံး APK update ကို ရယူနည်းကို ရှင်းပြထားပါတယ်။</p>
-    </header>
+<p>ဒီစာမျက်နှာမှာ Watch Along ကို အသုံးပြုနည်း၊ ပြဿနာဖြေရှင်းနည်းနဲ့ နောက်ဆုံး APK update ကို ရယူနည်းကို ရှင်းပြထားပါတယ်။</p>
 
-    <main>
-      <!-- Watch Along Guide -->
-      <section>
-        <h2>အခြေခံအကြောင်းအရာ</h2>
-        <ul>
-          <li><strong>Man Utd ပွဲစမယ့်အချိန်</strong> — Watch Along icon ကို နှိပ်လိုက်ရင် <strong>Min Min Htun Live</strong> သွားတက်ပါမယ်။</li>
-          <li><strong>Multiple Match</strong> — တပြိုင်နက် <strong>၄ ပွဲထိ</strong> ကြည့်နိုင်ပါတယ်။</li>
-          <li><strong>ဖုန်း Screen</strong> — ဗီဒီယို fix မဖြစ်သေးရင် <strong>ထောင့်နားက icon</strong> ကို နှိပ်ပြီး view ပြောင်းနိုင်ပါတယ်။</li>
-          <li><strong>Watch Along Icon</strong> — အနီရောင်နဲ့ လူ ၂ ယောက် ပါတဲ့ ခလုတ်
+<h2>အခြေခံအကြောင်းအရာ</h2>
+<ul>
+  <li><strong>Man Utd ပွဲစမယ့်အချိန်</strong> — Watch Along icon ကို နှိပ်လိုက်ရင် <strong>Min Min Htun Live</strong> သွားတက်ပါမယ်။</li>
+  <li><strong>Multiple Match</strong> — တပြိုင်နက် <strong>၄ ပွဲထိ</strong> ကြည့်နိုင်ပါတယ်။</li>
+  <li><strong>ဖုန်း Screen</strong> — ဗီဒီယို fix မဖြစ်သေးရင် <strong>ထောင့်နားက icon</strong> ကို နှိပ်ပြီး view ပြောင်းနိုင်ပါတယ်။</li>
+  <li><strong>Watch Along Icon</strong> — အနီရောင်နဲ့ လူ ၂ ယောက် ပါတဲ့ ခလုတ်ဖြစ်ပါတယ်။</li>
+  <li><strong>အသစ်ထည့်စွက်</strong> — Chelsea ပွဲလည်း အလားအလာရှိပါက <strong>[date]</strong> တွင် Watch Along ထည့်ပေးပါမယ်။</li>
+</ul>
+<p>⚠️ သေချာစွာ <strong>VPN ပိတ်ထားမှ</strong> Watch Along အလုပ်လုပ်ပါမယ်။ VPN သုံးထားလျှင် Live မပေါ်နိုင်ပါ။</p>
+
+<h2>Development အခြေအနေ</h2>
+<p>လက်ရှိ <strong>Development လုပ်ဆောင်ဆဲ</strong> ဖြစ်ပြီး <strong>error</strong> တွေ အများကြီးဖြစ်နိုင်ပါတယ်။</p>
+<p>Man Utd ပွဲလာတဲ့အချိန် <strong>Min Min Htun Live</strong> မပေါ်လာလို့ ဘယ်ဟာနှိပ်ရမလဲ မသိသေးပါက — <strong>ရှိတဲ့ ခလုတ်တွေကို တစ်ခုပီးတစ်ခုလိုက်နှိပ်</strong> ကြည့်ပါ။</p>
+
+<h2>ပြဿနာဖြေရှင်းခြင်း (Troubleshooting)</h2>
+<ul>
+  <li><strong>Error တက်တယ်</strong> — VPN ကို ပိတ် (disable) လုပ်ကြည့်ပါ။</li>
+  <li><strong>Live မပေါ်တယ်</strong> — Watch Along icon ကို ပြန်နှိပ်ပါ၊ မရသေးရင် အခြား ခလုတ်များကို တစ်ခုပီးတစ်ခု စမ်းနှိပ်ပါ။</li>
+  <li><strong>Network Slow</strong> — Wi-Fi ပြောင်းခြင်း/Internet ပြန်ဖွင့်ခြင်းနဲ့ ကြိုးစားပါ။</li>
+  <li><strong>Update App</strong> — App version နောက်ဆုံးမဟုတ်လျှင် Store မှာ update လုပ်ပါ။</li>
+</ul>
+
+<h2>APK Update — Telegram Channel</h2>
+<p>ကျွန်တော်တို့ရဲ့ Watch Along app အတွက် နောက်ဆုံး update များကို <strong>Telegram channel</strong> မှတဆင့် ပေးပို့မယ်။</p>
+<p>အပလီကေးရှင်းနောက်ဆုံး version ကို ရရှိဖို့ channel ကို subscribe လုပ်ပါ။</p>
+<p>
+  Telegram link: 
+  <a href="https://t.me/+lHcPh_3VmP1lYTY1">https://t.me/+lHcPh_3VmP1lYTY1</a>
+</p>
+<p>Subscribe လုပ်ပြီး အပ်ဒိတ်အသစ်များကို စောင့်ကြည့်လိုက်ပါ။</p>
+<ul>
+  <li>နောက်ဆုံး APK update များကို channel မှတဆင့် ပေးပို့ပါမယ်။</li>
+  <li>စိတ်ကြိုက် update မဖြစ်သေးရင် Telegram notification ကို စောင့်ပါ။</li>
+  <li>သတိပေးချက်များကို လိုက်နာပါ၊ APK ကို အရင်ဆုံး backup လုပ်ထားပါ။</li>
+</ul>
+
+<h2>အခမဲ့ အသုံးပြုနိုင်မှု</h2>
+<p>ဒီ app ကို အခမဲ့ (Free) နဲ့ ကြော်ငြာမပါပဲ အသုံးပြုနိုင်မယ်။ ဒီအခွင့်အရေးကို <strong>နောက် ၃၅ ရက်အထိ [date]</strong> ရက်အတွင်း ခံစားနိုင်ပါသည်။</p>
+
+<p>© 2025 Watch Along Guide — APK Updates via Telegram</p>
